@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -13,4 +14,13 @@ body, html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+:root {
+    --themeColor:hotpink;
+}
+
+.signup, .login {
+    width:20%;
+    height: 10%;
+    border: 1vw solid var(--themeColor);
 }
