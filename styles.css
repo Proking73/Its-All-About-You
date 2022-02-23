@@ -16,11 +16,26 @@ body, html {
     flex-direction: column;
 }
 :root {
-    --themeColor:hotpink;
+    --saturation:330;
+    --themeColor:hsl(var(--saturation), 100%, 71%);
 }
 
-.signup, .login {
-    width:20%;
-    height: 10%;
-    border: 1vw solid var(--themeColor);
+.create {
+    font-family: 'Franklin Gothic Medium', Impact, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    padding: 1vmax;
+    font-size: 8vmin;
+    text-transform: uppercase;
+    border: none;
+    color: black;
+    transition:  background 0.1s ease-out;
+    -webkit-transition:  background 0.1s ease-out, color 0.1s ease-out;
+    -moz-transition:  background 0.1s ease-out, color 0.1s ease-out;
+    -o-transition:  background 0.1s ease-out, color 0.1s ease-out;
+    background:transparent;
+    outline: 1vmin double var(--themeColor, hotpink);
+}
+.create:hover {
+    background:  var(--themeColor, hotpink);
+    color: white;
 }
