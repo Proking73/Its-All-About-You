@@ -1,22 +1,8 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-::before, ::after {
-    content:" ";
-}
 body, html {
     background: white;
-    width: 100vw;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-:root {
-    --saturation:330;
-    --themeColor:hsl(var(--saturation), 100%, 71%);
 }
 
 .optionsCont {

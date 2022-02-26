@@ -1,0 +1,17 @@
+:root {
+    --saturation:330;
+    --themeColor:hsl(var(--saturation), 100%, 71%);
+}
+::before, ::after {
+    content:" ";
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
