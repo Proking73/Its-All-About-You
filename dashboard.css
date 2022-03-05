@@ -28,10 +28,13 @@ nav>img {
     height: 90%;
 }
 .card {
+    margin: 3vh;
+    width: 30vw;
     background-color: white;
     box-sizing: border-box;
-    width: 27.5vw;
-    border: 0.1vmin solid black;
+    border: 0.1vmin solid hsl(330 100% 60%);
+    border-radius: 1%;
+    height: fit-content;
 }
 .card>h1 {
     background: var(--themeColor);
@@ -44,7 +47,9 @@ nav>img {
     padding: 0.9vmax;
 }
 .cardContainer {
-    background-color: red;
     height: fit-content;
     display: grid;
+    grid-template-columns:;
+    justify-items: center;
+    align-items: baseline;
 }
