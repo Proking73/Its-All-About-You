@@ -28,8 +28,7 @@ nav>img {
     height: 90%;
 }
 .card {
-    margin: 3vh;
-    width: 30vw;
+    width: 31vw;
     background-color: white;
     box-sizing: border-box;
     border: 0.1vmin solid hsl(330 100% 60%);
@@ -46,10 +45,10 @@ nav>img {
     display: block;
     padding: 0.9vmax;
 }
-.cardContainer {
-    height: fit-content;
+main {
     display: grid;
-    grid-template-columns:;
-    justify-items: center;
-    align-items: baseline;
+    gap: 2vmin;
+    /*grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: min-content;
+    justify-items: center;*/
 }
