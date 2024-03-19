@@ -1,0 +1,25 @@
+/* index.html <--> styles.css; base intro pages (work with) base style sheet */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 2px solid;
+}
+::before, ::after {
+    content:" ";
+}
+body {
+    background: white;
+    /* BG can also be dark or sepia */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    font: clamp(1vmin, 2vw, 3vmax) 1.5vh ;
+}

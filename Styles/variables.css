@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Sarala:wght@400;700&display=swap');
+
+:root {
+    /* Fix the colors lol (dashboard is dependent on those) */
+    --saturation:330;
+    --themeColor:hsl(var(--saturation), 100%, 71%);
+    /* Font */
+    
+    /* Border */
+}
